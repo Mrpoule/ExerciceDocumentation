@@ -9,5 +9,5 @@ Voici notre exercice de documentation.
 
 ## Documentation:
 
-* [Zombie](ExerciceDocumentation/ClassLibrary2/README.md)
-* [Class1](ExerciceDocumentation/ClassLibrary2/README.md)
+* [Zombie](ClassLibrary2/README.md)
+* [Class1](ClassLibrary2/README.md)
