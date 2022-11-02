@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary2</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibrary2.Class1">
+            <summary>
+            Class de base.
+            </summary>
+        </member>
+        <member name="T:ClassLibrary2.Zombie">
+            <summary>
+            Classe qui initialise un Zombie.
+            <code>
+            
+            Zombie monZombie= new Zombie(pv,niveau,vitesse);
+            
+            monZombie.Sprint(vitesse,position);
+            
+            </code>
+            </summary>
+        </member>
+        <member name="M:ClassLibrary2.Zombie.#ctor(System.Int32,System.Int32,System.Double)">
+            <summary>
+            Constructeur qui initialise un Zombie de base
+            </summary>
+            <param name="pv"> la vie du Zombie</param>
+            <param name="niveau"> le niveau du Zombie</param>
+            <param name="vitesse"> la vitesse du Zombie</param>
+        </member>
+        <member name="E:ClassLibrary2.Zombie.ZombieAttacked">
+            <summary>
+            Evenement qui se declenche quand le Zombie attaque.
+            </summary>
+        </member>
+        <member name="M:ClassLibrary2.Zombie.Mort">
+            <summary>
+            Boolean qui permet de savoir si le Zombie est mort.
+            </summary>
+            <returns>(si vrai, le Zombie est mort)</returns>
+        </member>
+        <member name="M:ClassLibrary2.Zombie.Sprint(System.Double,System.Double)">
+            <summary>
+            Fonction qui permet au Zombie de courrir
+            </summary>
+            <param name="vitesse">la vitesse du Zombie</param>
+            <param name="position">La position à modifier</param>
+        </member>
+    </members>
+</doc>
